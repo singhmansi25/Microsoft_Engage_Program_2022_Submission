@@ -1,0 +1,156 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Analyse & Plan</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<style>
+
+.bl{
+ margin: 4em 5em;
+ position: relative; 
+}
+.bl h1{
+ color:#F97300;
+ margin: 1em; 
+}
+.bl .card{
+ box-shadow: 0 0 20px #ccc;
+ display: flex;
+ align-items: center;   
+ justify-content: center;
+ margin: 4em;
+}
+.bl .card img{
+ width: 100%;
+ height: 20em;
+ 
+}
+.bl .card-title{
+ color:#F97300;
+ font-size: 20px;
+ 
+}
+.bl .card-body{
+ padding: 2em;
+ height: 15em;
+}
+.bl .card-footer1{
+ padding: 2em;
+ position: absolute;
+ right:100px;
+ bottom:400px;
+}
+.bl .card-footer2{
+ padding: 2em;
+ position: absolute;
+ right:100px;
+ bottom:20px;
+}
+.bl .card-footer1 .button{
+ background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bl .card-footer2 .button{
+ background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#logout {
+  background-color: white; 
+  border: none;
+  color: rgba(29, 15, 235, 0.715);
+  font-size: larger;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+<div class="bl">
+ <div class="container">
+ <h1 class="text-center">Let's get started !</h1>
+ <button id="logout" onclick="location.href='index.html';"> Log out </button>
+  <div class="row">
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="/assets/img/car2.jpg" class="img-fluid">
+     </div>
+     
+     <div class="card-body">
+     <h4 class="card-title">Visualize data with PowerBI</h4>
+      <p class="card-text">
+      <pre>
+      Create customized, interactive dashboards and reports 
+      that deliver actionable insights for improving business 
+      results by combining data from many sources. Can assist 
+      in the connection of different data sets, transformation
+      data into a data model, and creation of charts or graphs 
+      to visualise the data.
+      </pre>
+      </p>
+     </div>
+     <div class="card-footer1">
+      <button type="button" class="button" onclick="location.href = 'pbipage.html';">Get Started</button>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="/assets/img/car1.png" class="img-fluid">
+     </div>
+     
+     <div class="card-body">
+        <h4 class="card-title">Data Analysis to make predictions </h4>
+      <p class="card-text">
+       <pre>
+        Data analytics is the business of deriving meaningful insights 
+        in the form of patterns, relationships, and trends, from diverse 
+        data sets. It involves the application of both quantitative and 
+        qualitative methodologies. Data analytics software enables collecting,
+        cleansing, storing, analyzing, and reporting of data on any given scale.
+      </pre>
+      </p>
+     </div>
+     <div class="card-footer2">
+      <button type="button" class="button" onclick="location.href = 'data-analysis.html';">Get Started</button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+</body>
+</html>
